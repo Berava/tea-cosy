@@ -15,6 +15,8 @@
   text-align: center;
 }
 
+/* style for the header */
+
 header {
   height: 69px;
   border-bottom: 1px solid seashell;
@@ -23,6 +25,8 @@ header {
   align-items: center;
   position: fixed;
   width: 100%;
+  z-index: 2;
+  background-color: inherit;
 }
 
 .logo {
@@ -41,4 +45,57 @@ li {
 .menu a {
   text-decoration: underline;
   color: inherit;
+}
+
+.container {
+  position: relative;
+  top: 69px;
+  z-index:1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Style for the mission section */
+
+.mission {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  width: 1000px;
+  background-image: url("../images/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+}
+
+.mission-text {
+    background-color: black;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* Style for the tea month section */
+.tea-month {
+  width: 1000px;
+}
+
+.vignette {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image {
+  margin: 10px;
+}
+
+.image img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
