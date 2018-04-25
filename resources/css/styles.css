@@ -136,3 +136,19 @@ li {
 .implantation > div:last-child {
   margin-right: 0;
 }
+
+/* contact section */
+.contact {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* footer */
+footer {
+  text-align: left;
+  position: relative;
+  top: 69px;
+  margin-left: 20px;
+}
